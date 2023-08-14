@@ -1,0 +1,218 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    border: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(230, 225, 225,0.993);
+}
+.Left-hand-side{
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    margin: 1px;
+}
+li{
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+.Right-hand-side{
+    display: flex;
+    align-items: center;
+}
+#Avatar{
+    height: 43px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+#Collection{
+    margin-left: 40px;
+    border-style: none;
+    background-color: white;
+    color: grey;
+}
+#Men{
+    margin-left: 30px;
+    border-style: none;
+    background-color: white;
+    color: grey;
+}
+#Women{
+    margin-left: 30px;
+    border-style: none;
+    background-color: white;
+    color: grey;
+}
+#About{
+    margin-left: 30px;
+    border-style: none;
+    background-color: white;
+    color: grey
+}
+#Contact{
+    margin-left: 30px;
+    border-style: none;
+    background-color: white;
+    color: grey
+}
+.Container{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 580px;
+    min-height: 100vh;
+}
+.Pictures{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px 230px;
+    gap: 15px;
+}
+.Navigation{
+    display: flex;
+}
+.Container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Main-image{
+    flex-basis: 50%;
+    min-width: 300px;
+    border-style: none;
+    border-radius: 10%;
+    border: 1px;
+    margin-left: 140px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.Main-image img{
+    max-width: 400px;
+    padding: 10px 10px;
+}
+.Thumbnails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 70px;
+    padding-left: 150px;
+    padding-right: 80px;
+    flex-shrink: 0;
+    margin-top: 150px;
+}
+#Thumb-1{
+    width: 80px;
+    border-radius: 10px;
+    padding: 25px 10px;
+}
+#Thumb-2{
+    width: 80px;
+    border-radius: 10px;
+    padding: 25px 10px;
+}
+#Thumb-3{
+    width: 80px;
+    border-radius: 10px;
+    padding: 25px 10px;
+}
+#Thumb-4{
+    width: 80px;
+    border-radius: 10px;
+    padding: 25px 10px;
+}
+.Text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding-left: 2px;
+    padding-right: 30px;
+}
+.First{
+    margin-top: 20px;
+    color: rgb(218,146,13);
+    font-size: small;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    font-weight: bold;
+}
+.Second{
+    font-weight: bolder;
+    margin-top: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.Third{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+.Fourth{
+    margin-top: 10px;
+    margin-top: 0;
+    margin-block-start: 15;
+    margin-block-end: 0;
+    margin-right: 20px;
+}
+.Fifth{
+    margin-block-start: 4px;
+    margin-block-end: 0;
+    margin-inline-start: 4px;
+    margin-inline-end: 0;
+    padding-top: 0;
+    color: gray;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+#minus{
+    width: 50px;
+    height: 40px;
+    border-right: -1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: none;
+}
+#number{
+    width: 50px;
+    height: 40px;
+    border-right: -1;
+    border-style: none;
+}
+#add{
+    width: 50px;
+    height: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: none;
+}
+#add-to-cart{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color:orangered;
+    border-style: none;
+    color: white;
+    vertical-align: top;
+}
+.Change{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#discount{
+       align-items: center;
+       margin-block-start: 10px;
+       background-color: rgb(218,146,13);
+       color: white;
+       margin-bottom: 10px;
+       margin-left: 15px;
+}
